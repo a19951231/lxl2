@@ -1,0 +1,129 @@
+platformName: Android
+#真机
+deviceName: Y15QFBP724GL6
+platformVersion: 5.1
+
+automationName: uiautomator2
+
+appPackage: com.tal.kaoyan
+appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+
+appname: kaoyan3.1.0.apk
+unicodeKeyboard: True
+resetKeyboard: True
+noReset1: False
+noReset2: True
+ip: 127.0.0.1
+port: 4723
+ts:
+  ts1: ======启动考研帮app3.1.0版本======
+  ts2: ======点击发现新版本框的取消按钮=====
+  ts3: ======点击app的初始页面右上角的跳过按钮======
+  ts4: ====操作成功====
+  ts5: ====点击账号输入框====
+  ts6: =====^*^检查弹框的确定元素是否存在^*^=====
+  ts7: =====^*^进行退出app的操作^*^=====
+  ts8: =====^*^登录成功^*^=====
+  ts9: ======登录失败截图======
+  ts10: ======检查登录状态======
+  ts11: ======点击注册按钮成功=======
+  ts12: ======准备点击新用户注册页面的添加头像按钮======
+  ts13: =======准备选择头像图片操作=======
+  ts14: =======准备点击保存操作=======
+  ts15: =======准备输入用户名称操作=======
+  ts16: =======准备输入用户密码操作========
+  ts17: =======准备输入邮箱账户操作========
+  ts18: ========准备点击注册按钮操作========
+  ts19: ========注册失败的截图========
+  ts20: ========准备选择院校操作========
+  ts21: ========准备点击院校地址操作========
+  ts22: ========准备选择某个地区的院校操作========
+  ts23: ========准备点击选择目标专业操作========
+  ts24: ========准备点击选择专业主目录操作========
+  ts25: =========准备点击专业子目录操作========
+  ts26: ========准备点击子目录专业的专业操作========
+  ts27: ========准备点击进入考研帮按钮操作========
+  ts28: ========注册失败截图=======
+
+ts1:
+  ts1: =======注册失败======
+  ts2: =======注册用例开始执行=======
+  ts3: =======登陆用例开始执行=======
+  ts4: =====开始执行登陆用例=====
+  ts5: =====开始执行注册用例====
+
+ys:
+   - ys1: android:id/button2
+     id: id
+   - ys2: com.tal.kaoyan:id/tv_skip
+     id: id
+   - zhh: com.tal.kaoyan:id/login_email_edittext
+     id: id
+   - mm: com.tal.kaoyan:id/login_password_edittext
+     id: id
+   - dlann: com.tal.kaoyan:id/login_login_btn
+     id: id
+   - chaann: com.tal.kaoyan:id/view_wemedia_cacel
+     id: id
+   - qdann: com.tal.kaoyan:id/tip_commit
+     id: id
+   - qdann1: com.tal.kaoyan:id/tip_commit
+     id: id
+   - woann: com.tal.kaoyan:id/mainactivity_button_mysefl
+     id: id
+   - username: com.tal.kaoyan:id/activity_usercenter_username
+     id: id
+   - RightButton: com.tal.kaoyan:id/myapptitle_RightButton_textview
+     id: id
+   - logoutBtn: com.tal.kaoyan:id/setting_logout_text
+     id: id
+   - zhucie: com.tal.kaoyan:id/login_register_text
+     id: id
+
+zhuys:
+    - ys0: com.tal.kaoyan:id/activity_register_userheader
+      id: id
+    - ys1: com.tal.kaoyan:id/item_image
+      id: id
+    - ys2: com.tal.kaoyan:id/save
+      id: id
+    - ys3: com.tal.kaoyan:id/activity_register_username_edittext
+      id: id
+    - ys4: com.tal.kaoyan:id/activity_register_password_edittext
+      id: id
+    - ys5: com.tal.kaoyan:id/activity_register_email_edittext
+      id: id
+    - ys6: com.tal.kaoyan:id/activity_register_register_btn
+      id: id
+
+zlys:
+   - ys0: com.tal.kaoyan:id/perfectinfomation_edit_school_name
+     id: id
+   - ys1: com.tal.kaoyan:id/activity_perfectinfomation_major
+     id: id
+   - ys2: com.tal.kaoyan:id/activity_perfectinfomation_goBtn
+     id: id
+
+xxys:
+  - ys0: com.tal.kaoyan:id/more_forum_title
+    id: id
+  - ys1: com.tal.kaoyan:id/university_search_item_name
+    id: id
+
+zyys:
+   - ys0: com.tal.kaoyan:id/major_subject_title
+     id: id
+   - ys1: com.tal.kaoyan:id/major_group_title
+     id: id
+   - ys2: com.tal.kaoyan:id/major_search_item_name
+     id: id
+
+cs:
+  cs0: 2
+
+username: lxl666
+password: a19951231
+username1: lxl6666
+password1: a19951231
+username2: lxl333
+password2: a19951231
