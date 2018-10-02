@@ -1,0 +1,22 @@
+﻿前提条件，数据库进行迁移，在cmd输入python manage.py createsuperuser设置，然后输入账号，账号名为：root 邮箱：466279653@qq.com
+密码：a19951231
+启动sever：
+0，在cmd进入D:\django_restful目录
+1，然后在cmd里输入python manage.py runserver命令启动server
+2，然后cmd会提示http://127.0.0.1:8000/这个端口，然后在浏览器输入http://127.0.0.1:8000/端口进行打开django界面
+3，然后在浏览器里的http://127.0.0.1:8000/后面输入admin进入后台数据库进行输入我们刚刚创建的账号进行登陆
+
+数据迁移：
+在cmd进入我们django_restful目录，然后输入python manage.py makemigrations api,输入成功，再输入python manage.py migrate
+
+如果使用navicat连接mysql报Client does not support authentication protocol requested by server; consider upgrading MySQL client此错误
+查看https://blog.csdn.net/u013700358/article/details/80306560解决
+
+如果报django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module.
+Did you install mysqlclient?错误 查看https://www.cnblogs.com/jiaoyang77/p/9333424.html
+
+数据迁移成功后，
+我们在cmd里进入D:\django_restful目录，输入python manage.py createsuperuser设置，然后输入账号，账号名为：root 邮箱：466279653@qq.com
+密码：a19951231，然后进入D:\django_restful目录，启动server，
+然后cmd里输入python manage.py runserver会提示http://127.0.0.1:8000/这个端口，然后在浏览器输入http://127.0.0.1:8000/端口进行打开django界面
+然后重新登陆我们创建的超级管理员账号

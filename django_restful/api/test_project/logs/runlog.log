@@ -1,0 +1,320 @@
+2018-10-02 10:41:00,643 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 10:55:23,217 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 10:55:55,766 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 10:55:55,767 test_django_restful.py[line:86] INFO test_001_group_developer1
+2018-10-02 10:55:55,889 test_django_restful.py[line:96] INFO test_002_add_group2
+2018-10-02 10:55:56,059 test_django_restful.py[line:107] INFO test_003_update_group3
+2018-10-02 10:55:56,202 test_django_restful.py[line:118] INFO test_004_delete_group4
+2018-10-02 10:55:56,324 test_django_restful.py[line:25] INFO test_001_no_auth2
+2018-10-02 10:55:56,342 test_django_restful.py[line:34] INFO test_002_add_user3
+2018-10-02 10:55:56,496 test_django_restful.py[line:47] INFO test_003_update_user4
+2018-10-02 10:55:56,645 test_django_restful.py[line:58] INFO test_004_delete_user5
+2018-10-02 10:55:56,800 test_django_restful.py[line:68] INFO test_005_get_user6
+2018-10-02 10:55:56,923 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 10:55:56,923 mysql_action.py[line:9] INFO connect db...
+2018-10-02 10:55:56,928 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 10:55:56,928 mysql_action.py[line:9] INFO connect db...
+2018-10-02 10:55:56,933 mysql_action.py[line:13] INFO clear db...
+2018-10-02 10:55:57,189 mysql_action.py[line:21] INFO inser data...
+2018-10-02 10:55:57,189 mysql_action.py[line:28] INFO email,username,id
+2018-10-02 10:55:57,189 mysql_action.py[line:29] INFO 'sutune@163.com','sutune','1'
+2018-10-02 10:55:57,189 mysql_action.py[line:33] INFO insert into api_user(email,username,id) values('sutune@163.com','sutune','1')
+2018-10-02 10:55:57,219 mysql_action.py[line:21] INFO inser data...
+2018-10-02 10:55:57,219 mysql_action.py[line:28] INFO email,username,id
+2018-10-02 10:55:57,219 mysql_action.py[line:29] INFO '222xw@163.com','222xw','2'
+2018-10-02 10:55:57,219 mysql_action.py[line:33] INFO insert into api_user(email,username,id) values('222xw@163.com','222xw','2')
+2018-10-02 10:55:57,229 mysql_action.py[line:13] INFO clear db...
+2018-10-02 10:55:57,304 mysql_action.py[line:21] INFO inser data...
+2018-10-02 10:55:57,304 mysql_action.py[line:28] INFO name,id
+2018-10-02 10:55:57,304 mysql_action.py[line:29] INFO 'Developer','1'
+2018-10-02 10:55:57,304 mysql_action.py[line:33] INFO insert into api_group(name,id) values('Developer','1')
+2018-10-02 10:55:57,314 mysql_action.py[line:21] INFO inser data...
+2018-10-02 10:55:57,314 mysql_action.py[line:28] INFO name,id
+2018-10-02 10:55:57,314 mysql_action.py[line:29] INFO 'Tester','2'
+2018-10-02 10:55:57,315 mysql_action.py[line:33] INFO insert into api_group(name,id) values('Tester','2')
+2018-10-02 10:55:57,323 mysql_action.py[line:40] INFO close db
+2018-10-02 10:55:57,324 mysql_action.py[line:42] INFO =============init finished!============
+2018-10-02 10:58:28,517 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:02:45,647 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:03:55,900 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:04:05,462 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:04:05,462 test_django_restful.py[line:86] INFO test_001_group_developer1
+2018-10-02 11:04:05,586 test_django_restful.py[line:96] INFO test_002_add_group2
+2018-10-02 11:04:05,736 test_django_restful.py[line:107] INFO test_003_update_group3
+2018-10-02 11:04:05,855 test_django_restful.py[line:118] INFO test_004_delete_group4
+2018-10-02 11:04:05,991 test_django_restful.py[line:25] INFO test_001_no_auth2
+2018-10-02 11:04:06,036 ff_fz.py[line:10] ERROR 错误原因为: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2018-10-02 11:04:06,039 test_django_restful.py[line:34] INFO test_002_add_user3
+2018-10-02 11:04:06,153 test_django_restful.py[line:47] INFO test_003_update_user4
+2018-10-02 11:04:06,423 test_django_restful.py[line:58] INFO test_004_delete_user5
+2018-10-02 11:04:06,600 test_django_restful.py[line:68] INFO test_005_get_user6
+2018-10-02 11:04:06,750 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:04:06,750 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:04:06,753 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:04:06,753 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:04:06,759 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:04:06,820 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:04:06,821 mysql_action.py[line:28] INFO username,email,id
+2018-10-02 11:04:06,821 mysql_action.py[line:29] INFO 'sutune','sutune@163.com','1'
+2018-10-02 11:04:06,821 mysql_action.py[line:33] INFO insert into api_user(username,email,id) values('sutune','sutune@163.com','1')
+2018-10-02 11:04:06,828 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:04:06,828 mysql_action.py[line:28] INFO username,email,id
+2018-10-02 11:04:06,828 mysql_action.py[line:29] INFO '222xw','222xw@163.com','2'
+2018-10-02 11:04:06,828 mysql_action.py[line:33] INFO insert into api_user(username,email,id) values('222xw','222xw@163.com','2')
+2018-10-02 11:04:06,844 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:04:06,947 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:04:06,947 mysql_action.py[line:28] INFO name,id
+2018-10-02 11:04:06,947 mysql_action.py[line:29] INFO 'Developer','1'
+2018-10-02 11:04:06,947 mysql_action.py[line:33] INFO insert into api_group(name,id) values('Developer','1')
+2018-10-02 11:04:06,954 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:04:06,954 mysql_action.py[line:28] INFO name,id
+2018-10-02 11:04:06,954 mysql_action.py[line:29] INFO 'Tester','2'
+2018-10-02 11:04:06,954 mysql_action.py[line:33] INFO insert into api_group(name,id) values('Tester','2')
+2018-10-02 11:04:06,963 mysql_action.py[line:40] INFO close db
+2018-10-02 11:04:06,964 mysql_action.py[line:42] INFO =============init finished!============
+2018-10-02 11:05:15,353 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:07:33,832 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:07:33,832 test_django_restful.py[line:92] INFO test_001_group_developer1
+2018-10-02 11:07:33,963 test_django_restful.py[line:102] INFO test_002_add_group2
+2018-10-02 11:07:34,183 test_django_restful.py[line:113] INFO test_003_update_group3
+2018-10-02 11:07:34,297 test_django_restful.py[line:124] INFO test_004_delete_group4
+2018-10-02 11:07:34,441 test_django_restful.py[line:31] INFO test_001_no_auth2
+2018-10-02 11:07:34,507 test_django_restful.py[line:40] INFO test_002_add_user3
+2018-10-02 11:07:34,621 test_django_restful.py[line:53] INFO test_003_update_user4
+2018-10-02 11:07:34,773 test_django_restful.py[line:64] INFO test_004_delete_user5
+2018-10-02 11:07:34,916 test_django_restful.py[line:74] INFO test_005_get_user6
+2018-10-02 11:07:35,047 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:07:35,047 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:07:35,050 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:07:35,050 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:07:35,054 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:07:35,125 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:07:35,126 mysql_action.py[line:28] INFO id,name
+2018-10-02 11:07:35,126 mysql_action.py[line:29] INFO '1','Developer'
+2018-10-02 11:07:35,126 mysql_action.py[line:33] INFO insert into api_group(id,name) values('1','Developer')
+2018-10-02 11:07:35,134 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:07:35,134 mysql_action.py[line:28] INFO id,name
+2018-10-02 11:07:35,134 mysql_action.py[line:29] INFO '2','Tester'
+2018-10-02 11:07:35,134 mysql_action.py[line:33] INFO insert into api_group(id,name) values('2','Tester')
+2018-10-02 11:07:35,146 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:07:35,206 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:07:35,206 mysql_action.py[line:28] INFO id,email,username
+2018-10-02 11:07:35,206 mysql_action.py[line:29] INFO '1','sutune@163.com','sutune'
+2018-10-02 11:07:35,206 mysql_action.py[line:33] INFO insert into api_user(id,email,username) values('1','sutune@163.com','sutune')
+2018-10-02 11:07:35,214 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:07:35,214 mysql_action.py[line:28] INFO id,email,username
+2018-10-02 11:07:35,214 mysql_action.py[line:29] INFO '2','222xw@163.com','222xw'
+2018-10-02 11:07:35,215 mysql_action.py[line:33] INFO insert into api_user(id,email,username) values('2','222xw@163.com','222xw')
+2018-10-02 11:07:35,221 mysql_action.py[line:40] INFO close db
+2018-10-02 11:07:35,221 mysql_action.py[line:42] INFO =============init finished!============
+2018-10-02 11:07:47,056 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:07:47,056 test_django_restful.py[line:92] INFO test_001_group_developer1
+2018-10-02 11:07:47,181 test_django_restful.py[line:102] INFO test_002_add_group2
+2018-10-02 11:07:47,343 test_django_restful.py[line:113] INFO test_003_update_group3
+2018-10-02 11:07:47,459 test_django_restful.py[line:124] INFO test_004_delete_group4
+2018-10-02 11:07:47,615 test_django_restful.py[line:31] INFO test_001_no_auth2
+2018-10-02 11:07:47,650 ff_fz.py[line:10] ERROR 错误原因为: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2018-10-02 11:07:47,651 test_django_restful.py[line:40] INFO test_002_add_user3
+2018-10-02 11:07:47,779 test_django_restful.py[line:53] INFO test_003_update_user4
+2018-10-02 11:07:47,898 test_django_restful.py[line:64] INFO test_004_delete_user5
+2018-10-02 11:07:48,050 test_django_restful.py[line:74] INFO test_005_get_user6
+2018-10-02 11:07:48,193 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:07:48,194 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:07:48,205 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:07:48,205 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:07:48,219 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:07:48,279 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:07:48,279 mysql_action.py[line:28] INFO id,username,email
+2018-10-02 11:07:48,279 mysql_action.py[line:29] INFO '1','sutune','sutune@163.com'
+2018-10-02 11:07:48,279 mysql_action.py[line:33] INFO insert into api_user(id,username,email) values('1','sutune','sutune@163.com')
+2018-10-02 11:07:48,289 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:07:48,290 mysql_action.py[line:28] INFO id,username,email
+2018-10-02 11:07:48,290 mysql_action.py[line:29] INFO '2','222xw','222xw@163.com'
+2018-10-02 11:07:48,290 mysql_action.py[line:33] INFO insert into api_user(id,username,email) values('2','222xw','222xw@163.com')
+2018-10-02 11:07:48,298 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:07:48,361 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:07:48,361 mysql_action.py[line:28] INFO id,name
+2018-10-02 11:07:48,361 mysql_action.py[line:29] INFO '1','Developer'
+2018-10-02 11:07:48,361 mysql_action.py[line:33] INFO insert into api_group(id,name) values('1','Developer')
+2018-10-02 11:07:48,367 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:07:48,367 mysql_action.py[line:28] INFO id,name
+2018-10-02 11:07:48,367 mysql_action.py[line:29] INFO '2','Tester'
+2018-10-02 11:07:48,367 mysql_action.py[line:33] INFO insert into api_group(id,name) values('2','Tester')
+2018-10-02 11:07:48,376 mysql_action.py[line:40] INFO close db
+2018-10-02 11:07:48,376 mysql_action.py[line:42] INFO =============init finished!============
+2018-10-02 11:08:22,256 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:08:36,631 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:09:20,266 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:15:12,190 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:15:43,317 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:18:32,317 test_django_restful.py[line:92] INFO test_001_group_developer1
+2018-10-02 11:18:32,438 test_django_restful.py[line:102] INFO test_002_add_group2
+2018-10-02 11:18:32,609 test_django_restful.py[line:113] INFO test_003_update_group3
+2018-10-02 11:18:32,727 test_django_restful.py[line:124] INFO test_004_delete_group4
+2018-10-02 11:18:32,883 test_django_restful.py[line:31] INFO test_001_no_auth2
+2018-10-02 11:18:32,933 ff_fz.py[line:10] ERROR 错误原因为: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2018-10-02 11:18:32,936 test_django_restful.py[line:40] INFO test_002_add_user3
+2018-10-02 11:18:33,059 test_django_restful.py[line:53] INFO test_003_update_user4
+2018-10-02 11:18:33,218 test_django_restful.py[line:64] INFO test_004_delete_user5
+2018-10-02 11:18:33,362 test_django_restful.py[line:74] INFO test_005_get_user6
+2018-10-02 11:18:33,499 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:18:33,500 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:18:33,502 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:18:33,502 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:18:33,509 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:18:33,618 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:18:33,618 mysql_action.py[line:28] INFO id,username,email
+2018-10-02 11:18:33,618 mysql_action.py[line:29] INFO '1','sutune','sutune@163.com'
+2018-10-02 11:18:33,618 mysql_action.py[line:33] INFO insert into api_user(id,username,email) values('1','sutune','sutune@163.com')
+2018-10-02 11:18:33,624 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:18:33,625 mysql_action.py[line:28] INFO id,username,email
+2018-10-02 11:18:33,625 mysql_action.py[line:29] INFO '2','222xw','222xw@163.com'
+2018-10-02 11:18:33,625 mysql_action.py[line:33] INFO insert into api_user(id,username,email) values('2','222xw','222xw@163.com')
+2018-10-02 11:18:33,633 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:18:33,694 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:18:33,694 mysql_action.py[line:28] INFO id,name
+2018-10-02 11:18:33,694 mysql_action.py[line:29] INFO '1','Developer'
+2018-10-02 11:18:33,694 mysql_action.py[line:33] INFO insert into api_group(id,name) values('1','Developer')
+2018-10-02 11:18:33,702 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:18:33,702 mysql_action.py[line:28] INFO id,name
+2018-10-02 11:18:33,702 mysql_action.py[line:29] INFO '2','Tester'
+2018-10-02 11:18:33,702 mysql_action.py[line:33] INFO insert into api_group(id,name) values('2','Tester')
+2018-10-02 11:18:33,709 mysql_action.py[line:40] INFO close db
+2018-10-02 11:18:33,710 mysql_action.py[line:42] INFO =============init finished!============
+2018-10-02 11:19:49,237 test_django_restful.py[line:92] INFO test_001_group_developer1
+2018-10-02 11:19:49,347 test_django_restful.py[line:102] INFO test_002_add_group2
+2018-10-02 11:19:49,481 test_django_restful.py[line:113] INFO test_003_update_group3
+2018-10-02 11:19:49,595 test_django_restful.py[line:124] INFO test_004_delete_group4
+2018-10-02 11:19:49,756 test_django_restful.py[line:31] INFO test_001_no_auth2
+2018-10-02 11:19:49,792 ff_fz.py[line:10] ERROR 错误原因为: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2018-10-02 11:19:49,809 test_django_restful.py[line:40] INFO test_002_add_user3
+2018-10-02 11:19:49,943 test_django_restful.py[line:53] INFO test_003_update_user4
+2018-10-02 11:19:50,081 test_django_restful.py[line:64] INFO test_004_delete_user5
+2018-10-02 11:19:50,217 test_django_restful.py[line:74] INFO test_005_get_user6
+2018-10-02 11:19:50,340 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:19:50,340 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:19:50,348 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:19:50,348 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:19:50,365 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:19:50,447 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:19:50,449 mysql_action.py[line:28] INFO id,email,username
+2018-10-02 11:19:50,452 mysql_action.py[line:29] INFO '1','sutune@163.com','sutune'
+2018-10-02 11:19:50,471 mysql_action.py[line:33] INFO insert into api_user(id,email,username) values('1','sutune@163.com','sutune')
+2018-10-02 11:19:50,491 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:19:50,493 mysql_action.py[line:28] INFO id,email,username
+2018-10-02 11:19:50,496 mysql_action.py[line:29] INFO '2','222xw@163.com','222xw'
+2018-10-02 11:19:50,497 mysql_action.py[line:33] INFO insert into api_user(id,email,username) values('2','222xw@163.com','222xw')
+2018-10-02 11:19:50,537 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:19:50,615 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:19:50,616 mysql_action.py[line:28] INFO name,id
+2018-10-02 11:19:50,619 mysql_action.py[line:29] INFO 'Developer','1'
+2018-10-02 11:19:50,620 mysql_action.py[line:33] INFO insert into api_group(name,id) values('Developer','1')
+2018-10-02 11:19:50,628 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:19:50,628 mysql_action.py[line:28] INFO name,id
+2018-10-02 11:19:50,631 mysql_action.py[line:29] INFO 'Tester','2'
+2018-10-02 11:19:50,632 mysql_action.py[line:33] INFO insert into api_group(name,id) values('Tester','2')
+2018-10-02 11:19:50,639 mysql_action.py[line:40] INFO close db
+2018-10-02 11:19:50,640 mysql_action.py[line:42] INFO =============init finished!============
+2018-10-02 11:20:10,367 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:20:10,368 test_django_restful.py[line:92] INFO test_001_group_developer1
+2018-10-02 11:20:10,481 test_django_restful.py[line:102] INFO test_002_add_group2
+2018-10-02 11:20:10,684 test_django_restful.py[line:113] INFO test_003_update_group3
+2018-10-02 11:20:10,801 test_django_restful.py[line:124] INFO test_004_delete_group4
+2018-10-02 11:20:10,949 test_django_restful.py[line:31] INFO test_001_no_auth2
+2018-10-02 11:20:10,979 ff_fz.py[line:10] ERROR 错误原因为: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2018-10-02 11:20:10,980 test_django_restful.py[line:40] INFO test_002_add_user3
+2018-10-02 11:20:11,122 test_django_restful.py[line:53] INFO test_003_update_user4
+2018-10-02 11:20:11,265 test_django_restful.py[line:64] INFO test_004_delete_user5
+2018-10-02 11:20:11,406 test_django_restful.py[line:74] INFO test_005_get_user6
+2018-10-02 11:20:11,570 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:20:11,570 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:20:11,572 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:20:11,572 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:20:11,587 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:20:11,651 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:20:11,652 mysql_action.py[line:28] INFO id,name
+2018-10-02 11:20:11,652 mysql_action.py[line:29] INFO '1','Developer'
+2018-10-02 11:20:11,652 mysql_action.py[line:33] INFO insert into api_group(id,name) values('1','Developer')
+2018-10-02 11:20:11,661 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:20:11,661 mysql_action.py[line:28] INFO id,name
+2018-10-02 11:20:11,661 mysql_action.py[line:29] INFO '2','Tester'
+2018-10-02 11:20:11,661 mysql_action.py[line:33] INFO insert into api_group(id,name) values('2','Tester')
+2018-10-02 11:20:11,674 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:20:11,795 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:20:11,796 mysql_action.py[line:28] INFO username,id,email
+2018-10-02 11:20:11,796 mysql_action.py[line:29] INFO 'sutune','1','sutune@163.com'
+2018-10-02 11:20:11,796 mysql_action.py[line:33] INFO insert into api_user(username,id,email) values('sutune','1','sutune@163.com')
+2018-10-02 11:20:11,807 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:20:11,807 mysql_action.py[line:28] INFO username,id,email
+2018-10-02 11:20:11,807 mysql_action.py[line:29] INFO '222xw','2','222xw@163.com'
+2018-10-02 11:20:11,807 mysql_action.py[line:33] INFO insert into api_user(username,id,email) values('222xw','2','222xw@163.com')
+2018-10-02 11:20:11,816 mysql_action.py[line:40] INFO close db
+2018-10-02 11:20:11,816 mysql_action.py[line:42] INFO =============init finished!============
+2018-10-02 11:20:20,573 run.py[line:26] INFO =========Start API Test=============
+2018-10-02 11:20:20,573 test_django_restful.py[line:92] INFO test_001_group_developer1
+2018-10-02 11:20:20,690 test_django_restful.py[line:102] INFO test_002_add_group2
+2018-10-02 11:20:20,862 test_django_restful.py[line:113] INFO test_003_update_group3
+2018-10-02 11:20:20,985 test_django_restful.py[line:124] INFO test_004_delete_group4
+2018-10-02 11:20:21,142 test_django_restful.py[line:31] INFO test_001_no_auth2
+2018-10-02 11:20:21,176 test_django_restful.py[line:40] INFO test_002_add_user3
+2018-10-02 11:20:21,303 test_django_restful.py[line:53] INFO test_003_update_user4
+2018-10-02 11:20:21,457 test_django_restful.py[line:64] INFO test_004_delete_user5
+2018-10-02 11:20:21,591 test_django_restful.py[line:74] INFO test_005_get_user6
+2018-10-02 11:20:21,701 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:20:21,701 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:20:21,704 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:20:21,704 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:20:21,718 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:20:21,780 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:20:21,780 mysql_action.py[line:28] INFO name,id
+2018-10-02 11:20:21,780 mysql_action.py[line:29] INFO 'Developer','1'
+2018-10-02 11:20:21,780 mysql_action.py[line:33] INFO insert into api_group(name,id) values('Developer','1')
+2018-10-02 11:20:21,787 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:20:21,788 mysql_action.py[line:28] INFO name,id
+2018-10-02 11:20:21,788 mysql_action.py[line:29] INFO 'Tester','2'
+2018-10-02 11:20:21,788 mysql_action.py[line:33] INFO insert into api_group(name,id) values('Tester','2')
+2018-10-02 11:20:21,795 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:20:21,870 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:20:21,871 mysql_action.py[line:28] INFO username,email,id
+2018-10-02 11:20:21,871 mysql_action.py[line:29] INFO 'sutune','sutune@163.com','1'
+2018-10-02 11:20:21,871 mysql_action.py[line:33] INFO insert into api_user(username,email,id) values('sutune','sutune@163.com','1')
+2018-10-02 11:20:21,878 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:20:21,878 mysql_action.py[line:28] INFO username,email,id
+2018-10-02 11:20:21,878 mysql_action.py[line:29] INFO '222xw','222xw@163.com','2'
+2018-10-02 11:20:21,878 mysql_action.py[line:33] INFO insert into api_user(username,email,id) values('222xw','222xw@163.com','2')
+2018-10-02 11:20:21,888 mysql_action.py[line:40] INFO close db
+2018-10-02 11:20:21,889 mysql_action.py[line:42] INFO =============init finished!============
+2018-10-02 11:22:37,998 test_django_restful.py[line:92] INFO test_001_group_developer1
+2018-10-02 11:22:38,133 test_django_restful.py[line:102] INFO test_002_add_group2
+2018-10-02 11:22:38,332 test_django_restful.py[line:113] INFO test_003_update_group3
+2018-10-02 11:22:38,460 test_django_restful.py[line:124] INFO test_004_delete_group4
+2018-10-02 11:22:38,611 test_django_restful.py[line:31] INFO test_001_no_auth2
+2018-10-02 11:22:38,675 ff_fz.py[line:10] ERROR 错误原因为: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2018-10-02 11:22:38,680 test_django_restful.py[line:40] INFO test_002_add_user3
+2018-10-02 11:22:38,832 test_django_restful.py[line:53] INFO test_003_update_user4
+2018-10-02 11:22:39,072 test_django_restful.py[line:64] INFO test_004_delete_user5
+2018-10-02 11:22:39,297 test_django_restful.py[line:74] INFO test_005_get_user6
+2018-10-02 11:22:39,479 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:22:39,479 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:22:39,482 mysql_action.py[line:8] INFO ==================init data===============
+2018-10-02 11:22:39,482 mysql_action.py[line:9] INFO connect db...
+2018-10-02 11:22:39,487 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:22:39,574 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:22:39,574 mysql_action.py[line:28] INFO id,username,email
+2018-10-02 11:22:39,574 mysql_action.py[line:29] INFO '1','sutune','sutune@163.com'
+2018-10-02 11:22:39,575 mysql_action.py[line:33] INFO insert into api_user(id,username,email) values('1','sutune','sutune@163.com')
+2018-10-02 11:22:39,582 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:22:39,582 mysql_action.py[line:28] INFO id,username,email
+2018-10-02 11:22:39,582 mysql_action.py[line:29] INFO '2','222xw','222xw@163.com'
+2018-10-02 11:22:39,582 mysql_action.py[line:33] INFO insert into api_user(id,username,email) values('2','222xw','222xw@163.com')
+2018-10-02 11:22:39,591 mysql_action.py[line:13] INFO clear db...
+2018-10-02 11:22:39,779 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:22:39,779 mysql_action.py[line:28] INFO id,name
+2018-10-02 11:22:39,779 mysql_action.py[line:29] INFO '1','Developer'
+2018-10-02 11:22:39,779 mysql_action.py[line:33] INFO insert into api_group(id,name) values('1','Developer')
+2018-10-02 11:22:39,788 mysql_action.py[line:21] INFO inser data...
+2018-10-02 11:22:39,788 mysql_action.py[line:28] INFO id,name
+2018-10-02 11:22:39,788 mysql_action.py[line:29] INFO '2','Tester'
+2018-10-02 11:22:39,788 mysql_action.py[line:33] INFO insert into api_group(id,name) values('2','Tester')
+2018-10-02 11:22:39,798 mysql_action.py[line:40] INFO close db
+2018-10-02 11:22:39,798 mysql_action.py[line:42] INFO =============init finished!============

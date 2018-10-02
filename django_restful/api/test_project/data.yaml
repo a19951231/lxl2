@@ -1,0 +1,28 @@
+api:
+   ip: http://127.0.0.1:8000/Users
+   ip1: http://127.0.0.1:8000/Groups
+
+auth:
+   zhhao: root
+   mm: a19951231
+
+test_001_no_auth2:
+   detail: Authentication credentials were not provided.
+
+test_002_add_user3:
+   username: zx666
+   email: 666@163.com
+
+test_003_update_user4:
+   email: 2018@163.com
+
+test_004_delete_user5:
+   ztm: 204
+
+test_005_get_user6:
+   username: sutune
+
+a1:
+ a: '/'
+ a1: '/1/'
+ a2: '/2/'

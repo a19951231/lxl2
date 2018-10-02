@@ -1,0 +1,14 @@
+api_user:
+   - id: 1
+     username: sutune
+     email: sutune@163.com
+
+   - id: 2
+     username: 222xw
+     email: 222xw@163.com
+
+api_group:
+   - id: 1
+     name: Developer
+   - id: 2
+     name: Tester
