@@ -3,6 +3,7 @@ import unittest
 
 class Yl_jk(unittest.TestCase):
     def api_user(self):
+        #这些没用的
         self.a=UserTest()
         self.a.test_1()
         self.a.test_001_no_auth2()
